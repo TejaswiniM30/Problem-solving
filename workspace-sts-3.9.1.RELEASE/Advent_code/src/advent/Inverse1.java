@@ -11,11 +11,8 @@ class Inverse1 {
 		Inverse_Captcha tester = new Inverse_Captcha();
 		assertEquals(3, tester.inverse("1122"), "Result must be 3");
 		assertEquals(4, tester.inverse("1111"), "Result must be 4");
-		assertEquals(0, tester.inverse("1234"), "Result must be 0");
-		assertEquals(9, tester.inverse("91212129"), "Result must be 9");
-		
-		
-		
+		assertEquals(0, tester.inverse("1234"), "Result must be as expected");
+		assertEquals(9, tester.inverse("91212129"), "Result must be 9");	
 	}
 
 }
