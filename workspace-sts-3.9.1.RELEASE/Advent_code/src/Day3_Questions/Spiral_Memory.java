@@ -7,7 +7,7 @@ import java.util.Scanner;
 class Spiral_Memory
     {
         public static void main(String args[])throws IOException
-        {
+            {
             System.out.print("Enter the size of matrix : ");
             BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
             int n=Integer.parseInt(br.readLine());
